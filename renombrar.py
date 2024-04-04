@@ -5,4 +5,4 @@ fd= open(ruta,"r")
 
 os.listdir()
 
-print(fd)
+print(fd.read())
