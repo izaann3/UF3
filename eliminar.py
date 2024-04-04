@@ -1,15 +1,18 @@
 import os
 
 '''
-1. Eliminar carpeta y su contenido
-2.1. Obtener el nombre de la carpeta
-2.2. Verificar la existencia de la carpeta
-2.3. Eliminar el contenido de la carpeta
-2.3.1. Obtener todos los elementos de la carpeta
-2.3.2. Iterar sobre los elementos
-2.3.3. Si es un archivo, eliminarlo
-2.3.4. Si es una carpeta, volvemos al paso 2.3.1
-2.4. Eliminar la carpeta vacía
-3.1. Pedir al usuario la ruta de la carpeta
-3.2. Eliminar la carpeta y su contenido
+1. Eliminar carpeta
+2.1. Obtener ruta
+2.2. Eliminar carpeta
+3.1.1. Pedir al usuario la ruta a eliminar
+3.2.1. Verificar que existe la ruta
+3.2.2. Verificar si es una carpeta
+3.2.3. Eliminar contenido
+3.2.4. Eliminar carpeta
+4.1.1.1 Pedir al usuario la ruta a eliminar
+4.2.1.1 Verificar que existe la ruta
+4.2.2.1 Verificar que existe la carpeta
+4.2.3.1 Mirar el contenido
+4.2.3.2 Eliminar fitxero
+4.2.3.3 Iterar en las carpetas para eliminar las carpetas
 '''
