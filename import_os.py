@@ -4,10 +4,10 @@ import os
 #r permite leer
 fd = open("/home/alumne/Escriptori/app.py","r")
 
-#w permite escribir
+#w permite escribir pero al abrirlo no hay contenido dentro
 fd = open("/home/alumne/Escriptori/app.py","w")
 
-#a permite hacer append
+#a permite hacer append y te mantiene las cosas que hay dentro
 fd = open("/home/alumne/Escriptori/app.py","a")
 
 #r+w permite leer + escribir
