@@ -10,8 +10,8 @@ fd = open("/home/alumne/Escriptori/app.py","w")
 #a permite hacer append y te mantiene las cosas que hay dentro
 fd = open("/home/alumne/Escriptori/app.py","a")
 
-#r+w permite leer + escribir
-fd = open("/home/alumne/Escriptori/app.py","r+w")
+#r+ permite leer + escribir
+fd = open("/home/alumne/Escriptori/app.py","r+")
 
 os.listdir()
 
