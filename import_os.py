@@ -1,6 +1,6 @@
 import os
 
-#file director = fd
+#file descriptor = fd
 #r permite leer
 fd = open("/home/alumne/Escriptori/app.py","r")
 
