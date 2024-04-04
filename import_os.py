@@ -18,6 +18,9 @@ os.listdir()
 #read te leera el archivo
 fd.read()
 
+#tell te dice donde esta el cursor
+fd.tell()
+
 #seek 0,0 te esta diciendo que va a mover de 1 en 1 desde el inicio
 fd.seek(0,0)
 
