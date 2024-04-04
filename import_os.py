@@ -1,17 +1,18 @@
 import os
 
+#file director = fd
 #r permite leer
-pd = open("/home/alumne/Escriptori/app.py","r")
+fd = open("/home/alumne/Escriptori/app.py","r")
 
 #w permite escribir
-pd = open("/home/alumne/Escriptori/app.py","w")
+fd = open("/home/alumne/Escriptori/app.py","w")
 
 #a permite hacer append
-pd = open("/home/alumne/Escriptori/app.py","a")
+fd = open("/home/alumne/Escriptori/app.py","a")
 
 #r+w permite leer + escribir
-pd = open("/home/alumne/Escriptori/app.py","r+w")
+fd = open("/home/alumne/Escriptori/app.py","r+w")
 
 os.listdir()
 
-print(pd)
+print(fd)
